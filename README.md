@@ -4,12 +4,6 @@
 
  XcodeProjectRenamer is a script Created by Marko Tadic on 8/1/16.
 
-Copyright © 2016 appculture. All rights reserved.
-
-I have just made an executable command line tool to make it easy to install and use.
-
-
-
 A Swift-based command-line tool to **rename an Xcode project** throughout its folder structure — including `.xcodeproj`, `.xcworkspace`, schemes, folders, and internal references.
 
 The tool is packaged as `xprename`, and can be installed via Homebrew or built locally.
