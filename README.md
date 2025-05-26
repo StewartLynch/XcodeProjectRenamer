@@ -6,7 +6,7 @@
 
 Original **Github repository**: https://github.com/tadija/xcode-project-renamer
 
-The scrip goes through all the files and directories recursively, including Xcode project or workspace file and replaces all occurrences of **$OLD_PROJECT_NAME** string with **$NEW_PROJECT_NAME** string (both in each file's name and content).
+The script goes through all the files and directories recursively, including Xcode project or workspace file and replaces all occurrences of **$OLD_PROJECT_NAME** string with **$NEW_PROJECT_NAME** string (both in each file's name and content).
 
 I have repackaged this, with permission as a  Swift-based command-line tool.
 
