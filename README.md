@@ -2,7 +2,9 @@
 
 [![Homebrew](https://img.shields.io/badge/install%20with-homebrew-29aadb.svg?logo=homebrew)](https://github.com/StewartLynch/homebrew-tap/blob/main/Formula/xprename.rb)
 
- XcodeProjectRenamer is a script Created by **Marko Tadic**
+![Thumbnail](assets/Thumbnail.png)
+
+ **XcodeProjectRenamer** is a script Created by **Marko Tadic**
 
 Original **Github repository**: https://github.com/tadija/xcode-project-renamer
 
