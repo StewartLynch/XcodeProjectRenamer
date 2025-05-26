@@ -2,9 +2,13 @@
 
 [![Homebrew](https://img.shields.io/badge/install%20with-homebrew-29aadb.svg?logo=homebrew)](https://github.com/StewartLynch/homebrew-tap/blob/main/Formula/xprename.rb)
 
- XcodeProjectRenamer is a script Created by Marko Tadic on 8/1/16.
+ XcodeProjectRenamer is a script Created by **Marko Tadic**
 
-A Swift-based command-line tool to **rename an Xcode project** throughout its folder structure — including `.xcodeproj`, `.xcworkspace`, schemes, folders, and internal references.
+Original **Github repository**: https://github.com/tadija/xcode-project-renamer
+
+The scrip goes through all the files and directories recursively, including Xcode project or workspace file and replaces all occurrences of **$OLD_PROJECT_NAME** string with **$NEW_PROJECT_NAME** string (both in each file's name and content).
+
+I have repackaged this, with permission as a  Swift-based command-line tool.
 
 The tool is packaged as `xprename`, and can be installed via Homebrew or built locally.
 
@@ -27,24 +31,15 @@ Renaming an Xcode project isn't just renaming a folder — it often involves:
 
 ---
 
-## 📦 Installation (via Homebrew)
+## 📦 Option 1: Installation via Homebrew
 
 You can install the command-line tool using Homebrew:
 
 ```bash
-brew tap stewartlynch/tap
-brew install xprename
+brew install stewartlynch/tap/xprename
 ```
 
-Once installed, run the tool from the root of your project:
-
-```bash
-xprename OldProjectName NewProjectName
-```
-
----
-
-## 🛠 Manual Build & Install (Locally via SwiftPM)
+## 🛠 Option 2: Manual Build & Install locally via SwiftPM
 
 If you prefer to build it yourself, you can clone the repo and install the tool manually using Swift Package Manager.
 
@@ -62,16 +57,11 @@ swift build -c release
 sudo cp .build/release/xprename /usr/local/bin/
 ```
 
-Now you can run:
-
-```bash
-xprename OldProjectName NewProjectName
-```
-
----
-
-## 🧪 Example
-
+## 🧪 How to use
+Once installed:
+1. Open Terminal
+2. Change the directory to your project directory
+3. Issue the following command:
 ```bash
 xprename MyOldAppName MyNewAppName
 ```
@@ -81,8 +71,24 @@ This will:
 - Rename `.xcodeproj` and `.xcworkspace` files
 - Update folder names and scheme names accordingly
 
----
+### Other commands
 
-## 🧾 License
+##### version
 
-MIT License — © Stewart Lynch
+To display the current version
+
+```bash
+xprename --version
+```
+
+##### help
+
+To show help information
+
+```bash
+xprename -h
+```
+
+## License
+
+This code is released under the MIT license. See [LICENSE](LICENSE) for details.
