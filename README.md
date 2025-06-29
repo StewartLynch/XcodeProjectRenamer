@@ -1,8 +1,9 @@
 # XcodeProjectRenamer
 
 [![Homebrew](https://img.shields.io/badge/install%20with-homebrew-29aadb.svg?logo=homebrew)](https://github.com/StewartLynch/homebrew-tap/blob/main/Formula/xprename.rb)
-
-![Thumbnail](assets/Thumbnail.png)
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=l8cnIetfafs
+" target="_blank"><img src="http://img.youtube.com/vi/l8cnIetfafs/0.jpg" 
+alt="Xcode Project Renamer" width="480" height="360" border="1" /></a>
 
  **XcodeProjectRenamer** is a script Created by **Marko Tadic**
 
