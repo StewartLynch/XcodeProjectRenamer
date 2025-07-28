@@ -16,7 +16,7 @@ struct RenameCommand: ParsableCommand {
     var newName: String
 
     func run() throws {
-        let xpr = XcodeProjectRenamer(oldName: oldName, newName: newName.replacingOccurrences(of: " ", with: ""))
+        let xpr = XcodeProjectRenamer(oldName: oldName, newName: newName)
         xpr.run()
     }
 }
